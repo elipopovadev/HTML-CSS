@@ -1,0 +1,15 @@
+.firstOrderList {
+list-style-type: upper-roman;
+}
+
+.secondOrderList {
+    list-style-type: lower-latin;
+}
+
+.listTypeCircle {
+list-style-type: circle;
+}
+
+.listTypeDisc {
+    list-style-type: disc;
+}
