@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action=" " method="GET">
+        <fieldset>
+            <legend>Customer Details</legend>
+            <div>
+                <label>
+                    <b>First Name</b>
+                    <input type="text" placeholder="George">
+                </label>
+            </div>
+            <br>
+            <div>
+                <label>
+                    <b>Last Name</b>
+                    <input type="text" placeholder="Devis">
+                </label>
+            </div>
+            <br>
+            <div>
+                <label>
+                    <b>Male</b>
+                    <input type="radio" name=gender>
+                </label>
+                <label>
+                    <b>Female</b>
+                    <input type="radio" name=gender>
+                </label>
+                <label>
+                    <b>Other</b>
+                    <input type="radio" name=gender>
+                </label>
+            </div>
+            <br>
+            <div>
+                <b>Preferred contact method: </b>
+                <label>
+                    <b>Email</b>
+                    <input type="radio" name=method>
+                </label>
+                <label>
+                    <b>Phone</b>
+                    <input type="radio" name=method>
+                </label>
+            </div>
+            <br>
+            <div>
+                <label>
+                    <b>Email</b>
+                    <input type="email" placeholder="your@email.com">
+                </label>
+            </div>
+            <br>
+            <div>
+                <label>
+                    <b>Phone</b>
+                    <input type="tel" placeholder="0922222222">
+                </label>
+            </div>
+            <br>
+            <div>
+                <label>
+                    <b>Town</b>
+                    <select>
+                        <option> Select a Town</option>
+                        <option><b>Varna</b></option>
+                        <option><b>Sofia</b></option>
+                        <option><b>Plovdiv</b></option>
+                    </select>
+                </label>
+            </div>
+            <br>
+            <div>
+                <label>
+                    <b>Age</b>
+                    <input type="number" min="17" max='70'>
+                </label>
+            </div>
+            <br>
+            <div>
+                <label>
+                    <b>Programming language</b>
+                    <input list="language">
+                    <datalist id="language">
+                        <option value="English">
+                        <option value="French">
+                        <option value="Bulgarian">
+                    </datalist>
+                </label>
+            </div>
+            <br>
+            <textarea rows=5 cols=20 placeholder="More information"> </textarea>
+            <br>
+            <div>
+                <label>
+                    <input type="radio">
+                    I agree the Terms and Conditions
+                </label>
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Send">
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>
