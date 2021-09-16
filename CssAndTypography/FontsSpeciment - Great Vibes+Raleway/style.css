@@ -1,0 +1,22 @@
+@import "https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap";
+
+html {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.firstList, .secondList {
+    list-style-type: disc;
+}
+
+.thirdList {
+    list-style-type: circle;
+}
+
+h1 {
+font-family: 'Great Vibes', cursive;
+line-height: 1.2;
+font-weight: bold;
+}
