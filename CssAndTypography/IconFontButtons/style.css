@@ -1,0 +1,31 @@
+html {
+    font-family: Helvetica, serif;  
+    margin-top: 110px;
+}
+
+p {
+    display: block;
+    padding: 1em;
+    border-radius: 3px;
+    margin: 2em 48em 1em 10em;
+    max-width: 100px;
+}
+
+.greenButton {
+    background: rgb(0, 153, 51);
+}
+
+
+.orangeButton {
+    background:  rgb(255, 153, 0);
+}
+
+i {
+    padding-right: 0.5em;
+    color: white
+}
+
+text {
+color: white
+}
+
