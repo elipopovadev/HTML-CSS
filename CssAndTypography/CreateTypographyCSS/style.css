@@ -1,0 +1,60 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+heading {
+    font-family: Georgia, serif;
+}
+
+.last-paragraph p {
+    font-style: italic;
+}
+
+.first-list , .second-list {
+    list-style: disc;
+}
+
+.third-list {
+    list-style: circle;
+}
+
+table {
+    border-collapse: collapse;
+    width: 60em;
+}
+
+tr {
+     border: none; 
+}
+
+td {
+  border-right: solid 0.5px gray; 
+  border-left: solid 0.5px gray;
+}
+
+th {
+    background: #7d7777 ;
+}
+
+td, th {
+    width: 33%;
+    padding-left: 1em;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background: #CCC
+}
+
+.vertical {
+    border-left: 3px solid rgb(221,221,221) ;
+    height: 130px;
+    margin: 40px;
+    padding: 8px;
+}
+
+.name {
+    padding-left: 600px;
+}
