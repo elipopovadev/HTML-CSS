@@ -1,0 +1,10 @@
+p {
+    border: 5px solid;
+    border-radius: 0.8em;
+    width: 200 px;
+    max-width: 1200px;
+    margin: 40px auto 40px auto;
+    padding: 20px;
+    background-color: rgb(64, 224, 208);        
+}
+
