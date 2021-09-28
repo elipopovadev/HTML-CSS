@@ -1,0 +1,24 @@
+html {
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+section {
+    width: 250 px;
+    height: 250 px;
+    border: 2px dotted;
+    border-color:rgb(6, 168, 6);
+    margin: 3.5em auto 3.5em auto;
+    padding: 2.5em 0em 10em 0em
+}
+
+p {
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    border: 3.5px solid;
+    border-color: rgba(0, 0, 255, 0.438);
+}
