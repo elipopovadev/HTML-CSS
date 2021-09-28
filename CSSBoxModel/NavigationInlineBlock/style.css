@@ -1,0 +1,27 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.2em;
+}
+
+body {
+    max-width: 1200 px;
+    margin: 50px 30px;
+}
+
+h1, nav {
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+hr {
+    border: 0.06em solid;
+}
