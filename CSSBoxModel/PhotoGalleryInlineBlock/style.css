@@ -1,0 +1,20 @@
+body {
+    background-color: #EEEEEE;
+}
+
+li {
+border-width: 0.4rem;
+border-color:  black;
+border-style: solid;
+display: inline-block;
+width: 28%;
+margin: 2%;
+vertical-align:middle;
+}
+
+img {
+    padding: 1em;
+    display: block;
+    width: 90%;
+}
+
