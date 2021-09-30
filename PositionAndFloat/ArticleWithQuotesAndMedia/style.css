@@ -1,0 +1,43 @@
+body{
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1, h2 {
+    font-family: Calibri, serif;
+}
+
+img {
+    max-width: 20em;
+    padding: 0.5em;
+    margin: 0.7em;
+    border-style: solid;
+    border-width: 0.3em;
+    box-shadow: 0 0 40px gray;
+}
+
+.right-image {
+    float:right;
+    height: 300px;
+    width: 220px;
+    object-fit: cover;
+}
+
+.left-image {
+    float:left;
+    height: 150px;
+    width: 220px;
+    object-fit: cover;
+}
+
+.section-two {
+    float: right;
+    border-left-style: solid;
+    border-left-color: gray;
+    border-left-width: 0.15em;
+    padding-left: 2em;
+    border-radius: 0.15em;
+    width: 40%;
+    font-style: italic;
+}
