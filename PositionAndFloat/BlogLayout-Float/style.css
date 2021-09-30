@@ -1,0 +1,41 @@
+body {
+    font: rgb(238, 238, 238) 
+}
+
+aside {
+float: right;
+}
+
+.second-section {
+    float:right;
+    border-left-style: solid;
+    border-left-color: gray;
+    border-left-width: 0.15em;
+    border-radius: 0.15em;
+    font-style: italic;
+    font-family: Georgia, serif;
+    padding-left: 2em;
+    width: 30%;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+.right-image, .left-image {
+    border: solid;
+    float: right;
+    width: 30%;
+    height: 240px;
+    margin: 15px;
+    padding: 3px
+}
+
+.right-image {
+float: right;
+}
+
+.left-image {
+    float: left;
+}
