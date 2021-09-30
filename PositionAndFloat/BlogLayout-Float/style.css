@@ -1,5 +1,7 @@
 body {
-    font: rgb(238, 238, 238) 
+    font: rgb(238, 238, 238);
+    margin-left: 50px;
+    max-width: 1200px;
 }
 
 aside {
