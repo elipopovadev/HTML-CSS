@@ -1,0 +1,32 @@
+div {
+    height: 50vh;
+    position: relative;
+}
+ 
+ .first {
+    background: linear-gradient( to right, rgb(24, 90, 157), rgb(67, 206, 162));
+}
+
+.second {
+    background: linear-gradient(to right, rgb(168, 50, 120), rgb(211, 130, 18));
+}
+
+img {
+    display: block;
+    width:25%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(2, 2, 2);
+  }
+
+.first-picture {
+    position: absolute;
+    top: 80px;
+    left: 413px;
+}
+
+.second-picture {
+    position: absolute;
+    bottom:30px;
+    left: 413px;
+    height: 300px;
+}
