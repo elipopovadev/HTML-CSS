@@ -1,0 +1,21 @@
+body {
+background: rgb(238, 238, 238);
+font-family: 'Georgia', serif;
+font-size: 1em/1.2;
+}
+
+img {
+width: 100%;
+border-radius: 5px 5px 0 0;
+}
+
+.card {
+    box-shadow: 3px 4px 18px 8px rgba(0,0,0,0.51);
+    border-radius: 5px;
+    transition: 0.3s;
+    max-width: 300px;
+    margin: 100px auto;
+}
+
+
+
