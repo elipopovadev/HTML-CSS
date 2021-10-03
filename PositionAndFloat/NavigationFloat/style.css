@@ -1,0 +1,49 @@
+body {
+    max-width: 1200px;
+    margin-left: 35px;
+}
+
+header {
+display: flex;
+align-items: center;
+}
+
+nav {
+margin-left: 55%;
+}
+
+.first-list {
+display: inline-flex;
+flex-direction: row;
+gap: 5px;
+}
+
+.first-list li {
+list-style: none;
+}
+
+a {
+color: green;
+text-decoration: unset;
+}
+
+.first-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+div {
+    order: 2;
+}
+
+img {
+    width: 30%;
+}
+
+
+
+
+
+
+
