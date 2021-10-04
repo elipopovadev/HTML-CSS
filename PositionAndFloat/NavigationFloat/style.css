@@ -4,7 +4,7 @@ body {
     font-family: Helvetica, sans-serif;
     font-style: normal;
     color: black;
-    text-decoration: none;
+    text-decoration: unset;
 }
 
 header {
@@ -32,16 +32,17 @@ text-decoration: unset;
 }
 
 .first-section {
-    display: inline-flex;
-    flex-wrap:nowrap;
-    align-items:flex-start; 
+display: flex; 
+justify-content:space-around;
 }
 
 img {
     width: 30%;
 }
 
-
+.section-with-image {
+    text-align: center;
+}
 
 
 
